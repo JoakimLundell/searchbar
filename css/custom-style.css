@@ -1,0 +1,44 @@
+header {
+  background: #f7f6f6;
+  height: 56px;
+
+}
+
+header span.logo-text {
+  line-height: 56px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0:
+}
+li {
+  display: inline-block;
+  height: 56px;
+  width: 56px;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  height: 56px;
+  line-height: 56px;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+#searchbar {
+  display: inline-block;
+  border-left: 1px solid black;
+  line-height: 56px;
+}
+#searchbar .active {
+  border: 1px solid red;
+}
+
+span.logo {
+  cursor: crosshair;
+}
